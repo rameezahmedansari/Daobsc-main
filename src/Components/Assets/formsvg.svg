@@ -1,0 +1,19 @@
+<svg width="453" height="100" viewBox="0 0 453 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 62.2767L0 99.3786H453V0.000132193C315.067 40.5968 169.078 62.3799 18 62.3799C11.9919 62.3799 5.99183 62.3454 0 62.2767Z" fill="#393397"/>
+<mask id="mask0_515_87" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="453" height="100">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 62.2767L0 99.3786H453V0.000132193C315.067 40.5968 169.078 62.3799 18 62.3799C11.9919 62.3799 5.99183 62.3454 0 62.2767Z" fill="#393397"/>
+</mask>
+<g mask="url(#mask0_515_87)">
+<line opacity="0.4" x1="40.5" y1="53" x2="40.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="80.5" y1="52" x2="80.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="120.5" y1="51" x2="120.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="160.5" y1="49" x2="160.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="200.5" y1="45" x2="200.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="240.5" y1="40" x2="240.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="280.5" y1="34" x2="280.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="320.5" y1="28" x2="320.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="360.5" y1="20" x2="360.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="400.5" y1="12" x2="400.5" y2="99" stroke="#C6BF22"/>
+<line opacity="0.4" x1="440.5" y1="3" x2="440.5" y2="99" stroke="#C6BF22"/>
+</g>
+</svg>

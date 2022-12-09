@@ -1,0 +1,7 @@
+.Mimg{
+    margin: 0 50px;
+}
+.il{
+    mix-blend-mode: difference !important;
+    filter: invert(100%);
+}

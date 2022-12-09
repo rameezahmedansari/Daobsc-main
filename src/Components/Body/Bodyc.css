@@ -1,0 +1,17 @@
+.dark {
+    color: #3D3D3D !important;
+}
+
+.light {
+
+    color: #FFFFFF !important;
+}
+
+.gray {
+    color: #666666 !important;
+}
+
+.il {
+    /* mix-blend-mode: difference; */
+    filter: invert(0%);
+}

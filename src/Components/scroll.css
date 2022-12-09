@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.curosal{
+    height:200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.slider1{
+    width: 600%;
+    height:120px;
+    display: flex;
+    position: absolute;
+    margin-left: -100%;
+}
+.img1{
+    width:calc(100%/6);
+    height:auto;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* .img1:nth-child(1)
+{
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.img1:nth-child(2)
+{
+    background-image: url("https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.img1:nth-child(3)
+{
+    background-image: url("https://images.pexels.com/photos/9433059/pexels-photo-9433059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.img1:nth-child(4)
+{
+    background-image: url("https://images.pexels.com/photos/1998439/pexels-photo-1998439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.img1:nth-child(5)
+{
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.img1:nth-child(6)
+{
+    background-image: url("https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+} */
+
+.buttons{
+    height: 80px;
+    width: 100%;
+    /* background-color: limegreen; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 50px
+}
+.button{
+    height:80px;
+    width: 80px;
+    /* background-color: orange; */
+    border-radius: 50%;
+    border:3px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border:3px solid rgb(211, 209, 209);
+    color: rgb(226, 215, 215);
+}
+
+.indicators{
+    height: 50px;
+    width: 100%;
+    /* background-color: ; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.indicator{
+    height:11px;
+    width:11px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.indicator:hover{
+    transform: scale(1.2);
+}
+.activeIndicator{
+    background-color: rgb(145, 138, 138);
+    transform: scale(1.2);
+}
+.il{
+    mix-blend-mode: difference !important;
+    filter: invert(100%);
+}
